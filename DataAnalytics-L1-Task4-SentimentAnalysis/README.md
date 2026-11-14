@@ -1,55 +1,81 @@
+Sentiment Analysis – OIBSIP Level 1 Task 4
+Project Overview
+This project focuses on Sentiment Analysis using Natural Language Processing (NLP) and Machine Learning. The objective is to classify text into three sentiment categories: Positive, Negative, and Neutral.
+Internship Details
 
-# Sentiment Analysis – OIBSIP Level 1 Task 4
+Organization: Oasis Infobyte
+Track: Data Analytics
+Level: Level 1
+Task: Task 4 – Sentiment Analysis
 
-## Objective
-Build a Machine Learning model to classify text data into Positive, Negative, and Neutral sentiments.
+Tools & Technologies
 
-## Technologies Used
-- Python
-- Pandas
-- Scikit-learn
-- NLTK
-- TF-IDF Vectorizer
-- Matplotlib
-- Seaborn
-- WordCloud
+Python
+Google Colab
+Pandas
+NumPy
+Matplotlib
+Seaborn
+NLTK
+Scikit-learn
+TF-IDF Vectorization
+WordCloud
 
-## Project Workflow
-1. Loaded and inspected the sentiment dataset.
-2. Checked the distribution of sentiment classes.
-3. Preprocessed text data.
-4. Converted text into numerical features using TF-IDF.
-5. Split the dataset into 80% training and 20% testing data.
-6. Trained two classification models:
-   - Naive Bayes
-   - Logistic Regression
-7. Evaluated both models using accuracy, precision, recall, F1-score, and confusion matrices.
-8. Visualized sentiment distribution and WordClouds.
-9. Reviewed five misclassified examples.
+Project Workflow
 
-## Dataset Sentiment Distribution
+Loaded and explored the sentiment dataset.
+Checked missing values and duplicate records.
+Preprocessed and cleaned text data.
+Analyzed the distribution of Positive, Negative, and Neutral sentiments.
+Converted text into numerical features using TF-IDF Vectorization.
+Split the dataset into training and testing sets.
+Built and evaluated two Machine Learning models:
 
-| Sentiment | Records |
-|---|---:|
-| Neutral | 27,479 |
-| Positive | 21,043 |
-| Negative | 11,377 |
-| **Total** | **59,899** |
+Naive Bayes
+Logistic Regression
 
-## Model Performance
 
-| Model | Accuracy |
-|---|---:|
-| Naive Bayes | 63.22% |
-| Logistic Regression | 65.93% |
+Generated a confusion matrix and classification report.
+Visualized positive and negative sentiment using WordClouds.
 
-## Conclusion
-Logistic Regression performed better than Naive Bayes, achieving approximately 65.93% accuracy.
+Model Evaluation Results
 
-This project demonstrates how Natural Language Processing and Machine Learning can help analyze customer feedback, product reviews, and public opinion.
 
-## Author
+
+Model
+Accuracy
+
+
+
+
+Naive Bayes
+63.22%
+
+
+Logistic Regression
+65.93%
+
+
+
+Logistic Regression performed better than Naive Bayes on the test dataset.
+Key Findings
+
+The dataset contains Positive, Negative, and Neutral sentiments.
+Neutral sentiment had the highest number of records in the analyzed results.
+Logistic Regression achieved higher accuracy than Naive Bayes.
+TF-IDF helped convert text into numerical features for machine learning.
+
+Real-World Applications
+
+Analyzing customer reviews and feedback.
+Monitoring public opinion on social media.
+Understanding customer satisfaction.
+Helping businesses improve products and services.
+
+Screenshots
+Project screenshots are included in the Screenshots folder.
+Conclusion
+This project demonstrates how Natural Language Processing and Machine Learning can be used to understand opinions and automatically classify text into sentiment categories. Through this project, I gained practical experience in text preprocessing, TF-IDF vectorization, model training, evaluation, and data visualization.
+Author
 Manik Patil
-
-## Internship
-Oasis Infobyte – Data Analytics Internship
+Data Analytics Intern – Oasis Infobyte
